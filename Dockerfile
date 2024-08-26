@@ -39,7 +39,7 @@ RUN apt-get install -y -q
 RUN apt-get install -y -q keyboard-configuration
 
 # MySQL database server
-RUN apt install -y mysql-server
+#RUN apt install -y mysql-server
 
 # Install Node.JS for frontend compilation
 RUN mkdir -p /usr/local/lib/nodejs
